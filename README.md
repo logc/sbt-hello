@@ -24,10 +24,10 @@ authors explain that
 > 1.x and 0.13. There's no sbt available under 2.13.0, so expectation doesn't
 > make sense
 
-Since the current stable version of Scala -as of Nov 2020- is 2.13, the default
-template used on `sbt new scala/scala-seed.g8` sets it to be the Scala version
-used in `ThisBuild`. This leads to a compilation error even for the most minimal
-SBT plugin.
+Since the current stable version of Scala -- as of Nov 2020 -- is 2.13, the
+default template used on `sbt new scala/scala-seed.g8` sets it to be the Scala
+version used in `ThisBuild`. This leads to a compilation error even for the most
+minimal SBT plugin.
 
 Also note that the `Dependencies.scala` file lists `scalatest` as a dependency
 but is not used anywhere. This is a leftover from the initial template. I did
