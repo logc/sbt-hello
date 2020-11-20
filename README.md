@@ -9,8 +9,8 @@ template used by SBT itself for a new project does not play well with developing
 an SBT plugin.
 
 Whatever that might be, I wished for a Github repository that would show to me
-what a minimal working example would be. Since I found none, I created this once
-I had a MWE.
+what a minimal working example would be. Since I did not found one, I created
+this.
 
 ## What to look out for
 
